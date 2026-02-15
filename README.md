@@ -91,6 +91,17 @@ Access Oracle Enterprise Manager to monitor and manage the Oracle environment.
 **Solution:** Proper sequence: CLOSE → DROP INCLUDING DATAFILES.
 
 ---
+
+## Final Checklist (Apply Before Submission)
+-✅Correct PDB names used
+-✅User created inside the PDB
+-✅Temporary PDB created and deleted
+-✅OEM dashboard screenshot included
+-✅GitHub repository is PUBLIC
+-✅README is clear and professional
+-✅Deadline respected
+
+---
 ## Integrity Statement
 
 All sources were properly cited. Implementations and analysis represent original work. No AIgenerated content was copied without attribution or adaptation.”
