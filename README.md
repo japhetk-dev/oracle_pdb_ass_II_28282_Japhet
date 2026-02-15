@@ -54,13 +54,12 @@ CREATE PLUGGABLE DATABASE ja_to_delete_pdb_28282
   ADMIN USER temp_admin IDENTIFIED BY temp123
   FILE_NAME_CONVERT = ('pdbseed', 'ja_to_delete_pdb_28282');
 
-
 -- Close the PDB before deletion
 ALTER PLUGGABLE DATABASE ja_to_delete_pdb_28282 CLOSE IMMEDIATE;
 
 -- Drop the PDB including datafiles
 DROP PLUGGABLE DATABASE ja_to_delete_pdb_28282 INCLUDING DATAFILES;
-```
+
 ![Task 2 - Create Temp PDB](screenshots/task2_create_temp.png)
 
 ---
