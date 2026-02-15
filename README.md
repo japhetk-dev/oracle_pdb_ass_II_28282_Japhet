@@ -93,7 +93,8 @@ Access Oracle Enterprise Manager to monitor and manage the Oracle environment.
 ---
 
 ## Final Checklist (Apply Before Submission)
--✅Correct PDB names used
+
+-✅Correct PDB names used.
 -✅User created inside the PDB
 -✅Temporary PDB created and deleted
 -✅OEM dashboard screenshot included
