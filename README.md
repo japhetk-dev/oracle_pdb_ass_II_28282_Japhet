@@ -24,16 +24,19 @@ Create a permanent Pluggable Database with a dedicated user.
 
 ### SQL Commands Executed
 
-```
 
 -- Create the Pluggable Database
+
 CREATE PLUGGABLE DATABASE ja_pdb_28282
   ADMIN USER pdb_admin IDENTIFIED BY password
   FILE_NAME_CONVERT = ('pdbseed', 'ja_pdb_28282');
+
 ![Task 1 - PDB Creation](screenshots/task1_pdb_creation.png)
 
 -- Create user inside the PDB
+
 CREATE USER japhet_plsqlauca_28282 IDENTIFIED BY password;
+
 ![Task 1 - User Creation](screenshots/task1_user_creation.png)
 
 ---
@@ -45,9 +48,9 @@ create a temporary pluggable database and completely remove a Pluggable Database
 
 ### SQL Commands Executed
 
-```
 -- Create temporary PDB
-  CREATE PLUGGABLE DATABASE ja_to_delete_pdb_28282
+
+CREATE PLUGGABLE DATABASE ja_to_delete_pdb_28282
   ADMIN USER temp_admin IDENTIFIED BY temp123
   FILE_NAME_CONVERT = ('pdbseed', 'ja_to_delete_pdb_28282');
 
@@ -90,5 +93,4 @@ Access Oracle Enterprise Manager to monitor and manage the Oracle environment.
 **Solution:** Proper sequence: CLOSE → DROP INCLUDING DATAFILES.
 
 ---
-
 
