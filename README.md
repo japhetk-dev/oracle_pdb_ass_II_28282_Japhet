@@ -47,7 +47,7 @@ create a temporary pluggable database and completely remove a Pluggable Database
 
 ```
 -- Create temporary PDB
-CREATE PLUGGABLE DATABASE ja_to_delete_pdb_28282
+  CREATE PLUGGABLE DATABASE ja_to_delete_pdb_28282
   ADMIN USER temp_admin IDENTIFIED BY temp123
   FILE_NAME_CONVERT = ('pdbseed', 'ja_to_delete_pdb_28282');
 
