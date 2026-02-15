@@ -31,13 +31,14 @@ CREATE PLUGGABLE DATABASE ja_pdb_28282
   ADMIN USER pdb_admin IDENTIFIED BY password
   FILE_NAME_CONVERT = ('pdbseed', 'ja_pdb_28282');
 
-![Task 1 - PDB Creation](screenshots/task1_pdb_creation.png)
+![Task 1 - PDB Creation](screenshots/CreatingPDB.png)
 
 -- Create user inside the PDB
 
 CREATE USER japhet_plsqlauca_28282 IDENTIFIED BY password;
 
-![Task 1 - User Creation](screenshots/task1_user_creation.png)
+![Task 1 - User Creation](screenshots/usercommand.png)
+![Task 2 - User Output](screenshots/usersoutput.png)
 
 ---
 
@@ -60,7 +61,7 @@ ALTER PLUGGABLE DATABASE ja_to_delete_pdb_28282 CLOSE IMMEDIATE;
 -- Drop the PDB including datafiles
 DROP PLUGGABLE DATABASE ja_to_delete_pdb_28282 INCLUDING DATAFILES;
 
-![Task 2 - Create Temp PDB](screenshots/task2_create_temp.png)
+![Task 2 - Create Temp PDB](screenshots/DeletingTemporaryPDB.png)
 
 ---
 
@@ -75,8 +76,7 @@ Access Oracle Enterprise Manager to monitor and manage the Oracle environment.
 - **URL:** https://localhost:5500/em
 - **Username:** system
 
-### Evidence
-![Task 3 - Dashboard](screenshots/task3_dashboard.png)
+![Task 3 - Dashboard](screenshots/oem.png)
 
 ---
 
