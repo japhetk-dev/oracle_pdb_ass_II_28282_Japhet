@@ -1,9 +1,9 @@
 # Oracle Pluggable Database Assignment II
 
-- **Name:** Japhet
+- **Course:** INSY 8311 - Database Development with PL/SQL 
+- **Names:** Japhet KWIZERA
 - **ID:** 28282
-- **Course:** Database Development with PL/SQL 
-- **Instructor:** Eric Maniraguha
+- **Group:** B
 
 ---
 
@@ -93,4 +93,4 @@ Access Oracle Enterprise Manager to monitor and manage the Oracle environment.
 ---
 ## Integrity Statement
 
-
+All sources were properly cited. Implementations and analysis represent original work. No AIgenerated content was copied without attribution or adaptation.”
