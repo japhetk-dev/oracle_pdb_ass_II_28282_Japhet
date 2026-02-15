@@ -33,7 +33,7 @@ CREATE PLUGGABLE DATABASE ja_pdb_28282
 
 ![Task 1 - PDB Creation](screenshots/CreatingPDB.png)
 
--- Create user inside the PDB
+#### Create user inside the PDB
 
 CREATE USER japhet_plsqlauca_28282 IDENTIFIED BY password;
 
@@ -49,16 +49,16 @@ create a temporary pluggable database and completely remove a Pluggable Database
 
 ### SQL Commands Executed
 
--- Create temporary PDB
+#### Create temporary PDB
 
 CREATE PLUGGABLE DATABASE ja_to_delete_pdb_28282
   ADMIN USER temp_admin IDENTIFIED BY temp123
   FILE_NAME_CONVERT = ('pdbseed', 'ja_to_delete_pdb_28282');
 
--- Close the PDB before deletion
+#### Close the PDB before deletion
 ALTER PLUGGABLE DATABASE ja_to_delete_pdb_28282 CLOSE IMMEDIATE;
 
--- Drop the PDB including datafiles
+#### Drop the PDB including datafiles
 DROP PLUGGABLE DATABASE ja_to_delete_pdb_28282 INCLUDING DATAFILES;
 
 ![Task 2 - Create Temp PDB](screenshots/DeletingTemporaryPDB.png)
