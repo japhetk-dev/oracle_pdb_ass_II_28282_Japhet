@@ -71,7 +71,6 @@ DROP PLUGGABLE DATABASE ja_to_delete_pdb_28282 INCLUDING DATAFILES;
 Access Oracle Enterprise Manager to monitor and manage the Oracle environment.
 
 # URL: https://localhost:5500/em
-```
 
 ### OEM Access Details
 - **URL:** https://localhost:5500/em
