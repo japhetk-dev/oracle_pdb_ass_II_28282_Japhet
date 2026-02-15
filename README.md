@@ -25,7 +25,7 @@ Create a permanent Pluggable Database with a dedicated user.
 ### SQL Commands Executed
 
 
--- Create the Pluggable Database
+#### Create the Pluggable Database
 
 CREATE PLUGGABLE DATABASE ja_pdb_28282
   ADMIN USER pdb_admin IDENTIFIED BY password
