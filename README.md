@@ -91,4 +91,6 @@ Access Oracle Enterprise Manager to monitor and manage the Oracle environment.
 **Solution:** Proper sequence: CLOSE → DROP INCLUDING DATAFILES.
 
 ---
+## Integrity Statement
+
 
